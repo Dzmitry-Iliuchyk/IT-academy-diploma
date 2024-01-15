@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_cookie_autentification", "HW_cookie_autentification\HW_cookie_autentification.csproj", "{6F895713-C598-4860-BA9E-E10C1C33C1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplom.Tests", "Diplom.Tests\Diplom.Tests.csproj", "{E43F076A-5BD0-4E7A-BE63-AA47F3289B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F895713-C598-4860-BA9E-E10C1C33C1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F895713-C598-4860-BA9E-E10C1C33C1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F895713-C598-4860-BA9E-E10C1C33C1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F895713-C598-4860-BA9E-E10C1C33C1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43F076A-5BD0-4E7A-BE63-AA47F3289B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43F076A-5BD0-4E7A-BE63-AA47F3289B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43F076A-5BD0-4E7A-BE63-AA47F3289B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43F076A-5BD0-4E7A-BE63-AA47F3289B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A6CFE6A-16F9-4885-8577-0F1EA6036BB2}
+	EndGlobalSection
+EndGlobal

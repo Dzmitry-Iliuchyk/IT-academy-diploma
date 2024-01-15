@@ -1,0 +1,32 @@
+<div class='card'>
+    <div class='card-header'>
+      <h3>{{pageTitle}}</h3>
+    </div>
+    <div class="jumbotron">
+          
+      <p>Сайт создан для курсового проекта</p>
+      <p>Back-end на ASP.NET CORE, а front-end на Razor-pages и angular</p>
+      <p>Ниже реализована таблица получающая данные из API</p>
+      <p>Данные кэшируются с помощью redis контейнера</p>
+    </div>
+    <div class='card-body'>    
+      <div class='table-responsive'>
+        <table class='table' >
+          <thead>
+            <tr>
+              <th>Guid</th>
+              <th>Name</th>
+              <th>Lorem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let person of persons">
+                <td>{{person.id}}</td>
+                <td>{{person.name}}  </td>
+                <td>{{person.story}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
